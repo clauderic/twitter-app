@@ -1,9 +1,9 @@
-import { combineReducers } from 'redux';
+import {combineReducers} from 'redux';
 
-import tweets from './_tweets.reducer';
+import tweets from './tweets.reducer';
 
 const reducers = combineReducers({
-  tweets : tweets
+  tweets,
 });
 
 export default reducers;
