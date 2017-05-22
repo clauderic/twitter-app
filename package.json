@@ -1,0 +1,29 @@
+{
+  "name": "twitter-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^2.10.1",
+    "express": "^4.15.3",
+    "morgan": "^1.8.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.5",
+    "recompose": "^0.23.4",
+    "redux": "^3.6.0",
+    "redux-saga": "^0.15.3",
+    "twitter": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "react-scripts": "1.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "server": "cd ./server/ && node index.js",
+    "server-dev": "cd ./server/ && nodemon index.js --debug"
+  }
+}
